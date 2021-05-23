@@ -24,15 +24,15 @@ let submitform = document.getElementById('submit');
 submitform.addEventListener('click', FunctionClick);
 
 
-FunctionClick = function(event){
-  if(userNameForm == null || Emailform == null || passwordform == null || genderform ||  )
-  {
-      alert(sorry);
-  }
-  else
-  {
-    new AddMe( userNameForm,Emailform,passwordform ,genderform ,majorform , txtSkillsform ,imgform,submitform);
+// FunctionClick = function(event){
+//   if(userNameForm == null || Emailform == null || passwordform == null || genderform ||  )
+//   {
+//       alert(sorry);
+//   }
+//   else
+//   {
+//     new AddMe( userNameForm,Emailform,passwordform ,genderform ,majorform , txtSkillsform ,imgform,submitform);
 
-  }
+//   }
 
-}
+// }

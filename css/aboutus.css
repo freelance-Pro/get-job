@@ -1,0 +1,73 @@
+.head_section .logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 12px 12px;
+}
+
+.head_section .title_part h1{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px rgb(241, 160, 30);
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 190px;
+    font-weight: 800;
+}
+.head_section .nav_div .head_nav .head_ul {
+    position: absolute;
+    left: 400px;
+    top: 80px;
+ 
+}
+.head_section .nav_div .head_nav .head_ul li {
+    
+    display: inline;
+    padding: 50px;
+    font-family: 'Tangerine', serif; 
+    text-shadow: 4px 4px 4px rgb(61, 61, 61);
+    font-size: 30px; 
+  
+}
+.head_section .nav_div .head_nav .head_ul .nav_link{
+    text-decoration: none;
+    color: inherit;
+  
+}
+.head_section .nav_div .head_nav .head_ul li:hover{
+    font-size: 40px;
+    text-shadow: 4px 4px 4px rgb(241, 160, 30);
+}
+.head_section{
+    background-color: rgb(241, 160, 30);
+    height: 180px;
+}
+.btn_add_me .btn_login .btn_link{
+   position: absolute;
+   right: 100px;
+   top:65px;
+   display:inline-block;
+   padding:1em 1.5em;
+   border:0.1em solid rgb(241, 160, 30);
+   margin:0 0.3em 0.3em 0;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:fantasy;
+   font-weight:500;
+   color:rgb(241, 160, 30);
+   text-align:center;
+   background-color: black;
+   height: 50px;
+   width: 100px;
+   font-size: 15px;
+}
+.btn_add_me .btn_login .btn_link:hover{
+    border-radius: 50%;
+    height: 70px;
+    width: 120px;
+    padding:1.5em 1.5em;
+}
+
+
+

@@ -1,0 +1,120 @@
+.head_section .logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 12px 12px;
+}
+
+.head_section .title_part h1{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px rgb(241, 160, 30);
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 190px;
+    font-weight: 800;
+}
+.head_section .nav_div .head_nav .head_ul {
+    position: absolute;
+    left: 400px;
+    top: 80px;
+ 
+}
+.head_section .nav_div .head_nav .head_ul li {
+    
+    display: inline;
+    padding: 50px;
+    font-family: 'Tangerine', serif; 
+    text-shadow: 4px 4px 4px rgb(61, 61, 61);
+    font-size: 30px; 
+  
+}
+.head_section .nav_div .head_nav .head_ul .nav_link{
+    text-decoration: none;
+    color: inherit;
+  
+}
+.head_section .nav_div .head_nav .head_ul li:hover{
+    font-size: 40px;
+    text-shadow: 4px 4px 4px rgb(241, 160, 30);
+}
+.head_section{
+    background-color: rgb(241, 160, 30);
+    height: 180px;
+}
+.btn_add_me .btn_login .btn_link{
+   position: absolute;
+   right: 100px;
+   top:65px;
+   display:inline-block;
+   padding:1em 1.5em;
+   border:0.1em solid rgb(241, 160, 30);
+   margin:0 0.3em 0.3em 0;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:fantasy;
+   font-weight:500;
+   color:rgb(241, 160, 30);
+   text-align:center;
+   background-color: black;
+   height: 50px;
+   width: 100px;
+   font-size: 15px;
+}
+.btn_add_me .btn_login .btn_link:hover{
+    border-radius: 50%;
+    height: 70px;
+    width: 120px;
+    padding:1.5em 1.5em;
+}
+#slideset1 {height: 100em; position: relative;
+    overflow: hidden}
+#slideset1 > div {position: absolute; top: 100%; left: 0;
+        animation: 20s autoplay2 infinite ease-in-out}
+        @keyframes autoplay2 {
+            0% {top: 100%}
+            4% {top: 0%}
+            20% {top: 0%}
+            25% {top: 0%}
+            33.33% {top: 0%}
+            37.33% {top: -100%}
+            100% {top: -100%}
+          }
+#slideset1 > div:nth-child(1) {animation-delay: 0s}
+#slideset1 > div:nth-child(2) {animation-delay: 7s}
+#slideset1 > div:nth-child(3) {animation-delay: 14s}
+#slideset1 > div:nth-child(4) {animation-delay: 21s}
+#slideset1 > div:nth-child(5) {animation-delay: 28s}
+          
+
+.section .section1 .slid_show img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.section .section1 .slid_show{
+    position: relative;
+}
+
+.section .section1 .slid_show h1{
+    position: absolute;
+    top:12px;
+    left:400px ;
+    margin-left: 200px;
+    margin-top: 70px;
+    font-family: fantasy;
+    font-size: 40px;
+}
+.section .section1 .slid_show p{
+    position: absolute;
+    top:60px;
+    left:400px ;
+    margin-left: 200px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 500px;
+}
