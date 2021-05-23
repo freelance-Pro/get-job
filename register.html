@@ -1,50 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Register</title>
 </head>
+
 <body>
-    <header>
+    <header class="head_section">
         <div class="logo">
-            <img src="" alt="">
+            <img src="" alt="" class="logo_img">
         </div>
-        <div class="nav1">
-            <nav>
-                <ul>
-                    <li>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                    </li>
+        <div class="title_part">
+            <h1>
+
+            </h1>
+        </div>
+        <div class="nav_div">
+            <nav class="head_nav">
+                <ul class="head_ul">
+                    <li><a href="index.html" class="nav_link">Home</a></li>
+                    <li><a href="member.html" class="nav_link">Members</a> </li>
+                    <li><a href="aboutus.html" class="nav_link">About Us</a></li>
                 </ul>
             </nav>
         </div>
+        <div class="btn_add_me">
+            <a href="" class="btn_link"> <button class="btn_login">Add me </button></a>
+        </div>
     </header>
+    
     <main>
-        <div class="form">
-        <form action="">
-            <fieldset>
-                <legend>adding a Market</legend>
-                <label for="location">market name</label>
-                <input type="location" name="location" type="text" placeholder="name of market">
-        
-                <label for="minCust">minCust</label>
-                <input type="minCust" name="minCust" type="number" placeholder="put a number">
-        
-                <label for="maxCust">maxCust</label>
-                <input type="maxCust" name="maxCust" type="number" placeholder="put a number">
-        
-                <label for="AvgCookiesale">Avg Cookiesale</label>
-                <input type="AvgCookiesale" name="AvgCookiesale" type="number" placeholder="average cookiesale">
-        
-                <input type="submit" value="add market" />
-            </fieldset>
-        </form>
-       </div>
+        <div class="form0">
+            <form action="">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="label" for="info1">User Name</label >
+                    <input class="input" name="User Name" type="text" placeholder=" Enter User Name"><br>
+
+                    <label class="label" for="ifo2">E-mail</label>
+                    <input class="input" name="E-mail" type="text" placeholder="Enter Your E-mail"><br>
+
+                    <label class="label" for="info3">Password</label>
+                    <input class="input" name="Password" type="number" placeholder="Enter Your Password"><br>
+                    
+                    <input class="input" type="checkbox" name="Male">
+                    <label class="label" for="info4">Male</label><br>
+                    
+                    <input class="input" name="Female" type="checkbox">
+                    <label class="label"  for="info4">Female</label><br>
+
+
+                    <label class="label" for="info5">Major</label>
+                           <br>
+                    <select name="select Major" type="select" id="S_Major">
+
+                        <option value="select">select</option>
+                        <option value="Engineering">Engineering</option>
+                        <option value="Information Technology">Information Technology</option>
+                        <option value="Arts">Arts</option>
+                        <option value="Siences">Siences</option>
+                        <option value="Medical">Medical</option>
+                        <option value="Economy">Economy</option>
+                        <OPtion value="Geographic">Geographic</OPtion>
+                        <option value="Others">Others</option>
+                    </select>
+
+
+                
+
+                    <label class="label" for="info7">Skills</label>
+                    <input class="input" name="Skills" type="text" placeholder="Descripe Your Skills"><br>
+
+                    <input class="input" id="browse" type="file" value="Register"  />
+                    <label class="label" for="browse"> </label>
+
+                </fieldset>
+            </form>
+        </div>
     </main>
+    <footer class="foot_part">
+        <div class="fb_icon">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-yahoo"></a>
+        </div>
+    </footer>
 </body>
+
 </html>
