@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Members</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/members.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
 
 <body>
     <header class="head_section">
         <div class="logo">
-            <img src="" alt="" class="logo_img">
+            <img src="img/logo.png" alt="" class="logo_img">
         </div>
         <div class="title_part">
             <h1>
-
+               La Vigor
             </h1>
         </div>
         <div class="nav_div">
             <nav class="head_nav">
                 <ul class="head_ul">
-                    <li><a href="index.html" class="nav_link">Home</a></li>
-                    <li><a href="member.html" class="nav_link">Members</a> </li>
+                    <li ><a href="index.html" class="nav_link">Home</a></li>
+                    <li><a href="members.html" class="nav_link">Members</a> </li>
                     <li><a href="aboutus.html" class="nav_link">About Us</a></li>
                 </ul>
             </nav>
         </div>
-        
+        <div class="btn_add_me">
+           <button class="btn_login"><a href="register.html" class="btn_link">Add me</a> </button>
+        </div>
     </header>
     <main class="sec_main">
 
         <div class="main_div">
-            <div class="img_js">
-                <img src="" alt="" class="img_tag">
+            <div class="img_js" id="img_js">
+                <img src="" alt="" id="img_tag"/>
             </div>
             
-            <div class="user_name">
+            <!-- <div class="user_name">
                 <p id="user_name">username</p>
             </div>
 
@@ -59,9 +61,7 @@
 
             <div class="user_skills">
                 <p id="user_skills">user_skills</p>
-            </div>
-
-
+            </div> -->
         </div>
        
     </main>
@@ -73,6 +73,7 @@
             <a href="#" class="fa fa-yahoo"></a>
         </div>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
