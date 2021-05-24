@@ -37,7 +37,7 @@
 
     <main>
         <div class="form0">
-            <form action="">
+            <form action="" name="form">
                 <fieldset>
 
                     <legend>Personal Information</legend>
@@ -53,29 +53,20 @@
                     <br>
                     <label class="label" for="info4">Gender</label>
                     <br>
-
-                    <input class="input" type="radio" id="radiogender" name="radio">
+                    <div id="radio_btn">
+                    <input class="input" type="radio" id="radiogender1" value="Male" name="radio">
                     <label class="label" for="info4" value="Male">Male</label><br>
                     <br>
-                    <input class="input" name="radio" id="radiogender" type="radio">
+                    <input class="input" name="radio" id="radiogender2" value="Female" type="radio">
                     <label class="label" for="info4" value="Female">Female</label><br>
-
+                </div>
 
                     <br>
                     <label class="label" for="info5">Major</label>
 
-                    <select name="select Major" id="major" type="select" id="S_Major">
-
-                        <option isred="" selected="selected" value="select">select</option>
-                        <option isred="Engineering" value="Engineering">Engineering</option>
-                        <option isred="Information Technology" value="Information Technology">Information Technology
-                        </option>
-                        <option isred="Arts" value="Arts">Arts</option>
-                        <option isred="Siences" value="Siences">Siences</option>
-                        <option isred="Medical" value="Medical">Medical</option>
-                        <option isred="Economy" value="Economy">Economy</option>
-                        <option isred="Geographic" value="Geographic">Geographic</option>
-                        <option isred="Others" value="Others">Others</option>
+                    <select name="select Major"  type="select" id="S_Major">
+                        <option  selected="selected" >select</option>
+                        
                     </select>
 
 
@@ -95,6 +86,7 @@
         </div>
     </main>
     <footer class="foot_part">
+     
         <div class="fb_icon">
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>
