@@ -68,6 +68,8 @@
     width: 120px;
     padding:1.5em 1.5em;
 }
+
+
 #slideset1 {height: 100em; position: relative;
     overflow: hidden}
 #slideset1 > div {position: absolute; top: 100%; left: 0;
