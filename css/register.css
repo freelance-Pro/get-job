@@ -29,6 +29,7 @@ html {
     padding: 0;
     color: #fff;
     text-align: center;
+    text-shadow:4px 4px 4px rgb(103, 6, 6) ;
 
   }
   
@@ -60,23 +61,33 @@ html {
   
   .form0 .user-box input:focus ~ label,
   .form0 .user-box input:valid ~ label {
-    top: -20px;
+    top: -25px;
     left: 0;
-    color: #03e9f4;
-    font-size: 15px;
+    color:blanchedalmond;
+    text-shadow :4px 4px 4px rgb(103, 6, 6);
+    font-size: 20px;
   }
   .form0 .user-box option:focus ~ label ,
   .form0 .user-box option:valid ~ label  {
     top: -20px;
     left: 0;
-    color: #03e9f4;
+    color: rgb(103, 6, 6);
     font-size: 15px;
+  }
+  .form0 .user-box textarea:focus ~ label,
+  .form0 .user-box textarea:valid ~ label {
+    top: -25px;
+    left: 0;
+    color:blanchedalmond;
+    text-shadow :4px 4px 4px rgb(103, 6, 6);
+    font-size: 20px;
   }
   .user-box #txt_area{
       background: none;
       border: none;
       border-bottom: 2px solid white;
       color: white;
+      margin-top: 30px;
   }
   
   
@@ -84,7 +95,7 @@ html {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #03e9f4;
+    color: rgb(103, 6, 6);
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -96,38 +107,24 @@ html {
  
     
   }
-  .form0 form a{
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color: #03e9f4;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px;
- 
-    
-  }
+  
   form a input{
       background:none;
-      color: #03e9f4;
+      color: rgb(224, 209, 209);
       border: none;
       letter-spacing: 4px;
-      font-size: 20px;
+      font-size: 30px;
   }
   
   .form0 a:hover {
-    background: #03e9f4;
+    background: rgb(243, 238, 238);
     color: #fff;
     border-radius: 5px;
 
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 100px #03e9f4;
+    box-shadow: 0 0 5px rgb(189, 182, 182),
+                0 0 25px rgb(190, 178, 178),
+                0 0 50px rgb(235, 225, 225),
+                0 0 100px rgb(226, 214, 214);
   }
   
   .form0 a span {
@@ -140,7 +137,7 @@ html {
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
+    background: linear-gradient(90deg, transparent, rgb(124, 29, 29));
     animation: btn-anim1 1s linear infinite;
   }
   
@@ -158,7 +155,7 @@ html {
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #03e9f4);
+    background: linear-gradient(180deg, transparent, rgb(211, 186, 186));
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s
   }
@@ -177,7 +174,7 @@ html {
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #03e9f4);
+    background: linear-gradient(270deg, transparent, rgb(95, 33, 33));
     animation: btn-anim3 1s linear infinite;
     animation-delay: .5s
   }
@@ -196,7 +193,7 @@ html {
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #03e9f4);
+    background: linear-gradient(360deg, transparent, rgb(200, 118, 118));
     animation: btn-anim4 1s linear infinite;
     animation-delay: .75s
   }
