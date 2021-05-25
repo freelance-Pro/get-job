@@ -1,103 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Register</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/register.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
 
 <body>
     <header class="head_section">
-        <div class="logo">
-            <img src="img/logo.png" alt="" class="logo_img">
-        </div>
-        <div class="title_part">
-            <h1>
-               La Vigor
-            </h1>
-        </div>
-        <div class="nav_div">
-            <nav class="head_nav">
-                <ul class="head_ul">
-                    <li ><a href="index.html" class="nav_link">Home</a></li>
+        <div class="menu_div">
+            <nav>
+                <ul class="logo">
+                    <li><a href="index.html" class="nav_link">Home</a></li>
                     <li><a href="members.html" class="nav_link">Members</a> </li>
                     <li><a href="aboutus.html" class="nav_link">About Us</a></li>
                 </ul>
             </nav>
         </div>
-        
+
     </header>
 
     <main>
+
+
         <div class="form0">
-            <form action="" name="form" class="form_tag">
-                <fieldset>
 
-                    <legend>Personal Information</legend>
-                    <label class="label" for="info1">User Name</label>
-                    <input class="input" id="userName" name="User Name" type="text" placeholder=" Enter User Name"><br>
+            <h2>Personal Information</h2>
+            <form action="" name="form">
 
-                    <label class="label" for="ifo2">E-mail</label>
-                    <input class="input" id="email" name="E-mail" type="email" placeholder="Enter Your E-mail"><br>
 
-                    <label class="label" for="info3">Password</label>
-                    <input class="input" id="passw" name="Password" type="password"
-                        placeholder="Enter Your Password"><br>
-                    <br>
-                    <label class="label" for="info4">Gender</label>
-                    <br>
-                    <div id="radio_btn">
-                    <input class="input" type="radio" id="radiogender1" value="Male" name="radio">
-                    <label class="label" for="info4" value="Male">Male</label><br>
-                    <br>
-                    <input class="input" name="radio" id="radiogender2" value="Female" type="radio">
-                    <label class="label" for="info4" value="Female">Female</label><br>
+                <div class="user-box">
+                    <input required class="input" id="userName" name="UserName" type="text">
+                    <label>UserName</label>
                 </div>
 
+                <div class="user-box">
+
+                    <input required class="input" id="email" name="E-mail" type="email">
+                    <label>E-mail</label>
+                </div>
+
+                <div class="user-box">
+                    <input required class="input" id="passw" name="Password" type="password">
+                    <label class="label" for="info3">Password</label>
+                </div>
+                <div class="user-box">
+                    <label class="label" id="gender_id" for="info4">Gender</label>
+                </div>
+                </br>
+                </br>
+                </br></br>
+                <div id="radio_btn">
+                    <div class="user-box">
+                        <input class="input" type="radio" id="radiogender1" value="Male" name="radio">
+                        <label class="label" for="info4" value="Male">Male</label>
+                    </div>
+                    <div class="user-box">
+                        <input class="input" name="radio" id="radiogender2" value="Female" type="radio">
+                        <label class="label" for="info4" value="Female">Female</label>
+                    </div>
+
+                </div>
+
+                <div class="user-box" id="option">
                     <br>
-                    <label class="label" for="info5">Major</label>
+                    <br>
+                    </br>
+                    <select name="select Major" type="select" id="S_Major">
+                        <option selected="selected" required>select</option>
 
-                    <select name="select Major"  type="select" id="S_Major">
 
-                        <option isred="" selected="selected" value="select">select</option>
-                        
-
-                        <option  selected="selected" >select</option>
-                        
                     </select>
 
+                    <label for="info5">Major</label>
 
-                    <br>
+                </div>
+                <br>
+
+                <div class="user-box">
                     <label class="label" for="info7">Skills</label> <br>
-                    <textarea name="" id="txt_area" cols="30" rows="10" class="input" name="Skills" type="text"
+                    </br>
+                    </br>
+
+                    <textarea name="" id="txt_area" cols="60" rows="1" class="input" name="Skills" type="text"
                         placeholder="Descripe Your Skills"></textarea>
 
-                    <br>
-                    <input class="input" id="browse" type="file" value="Register" />
-                    <label class="label" for="browse"> </label>
-                    <br>
-                    <input type="submit" id="submit" value="Submit">
+                </div>
+                </br>
+                </br>
 
-                </fieldset>
+                <div class="user-box">
+
+                    <input class="input" id="url_txt" name="Url" type="url" required>
+                    <label class="label" for="url">Upload Url image</label>
+                </div>
+
+                <a href="members.html">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <input type="submit" id="submit" value="Submit">
+                </a>
+
+
             </form>
         </div>
     </main>
-    <footer class="foot_part">
-     
-        <div class="fb_icon">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-yahoo"></a>
-        </div>
-    </footer>
+    
     <script src="js/app.js"></script>
 </body>
 
