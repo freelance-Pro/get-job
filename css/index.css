@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
 html,body{
   margin:0;
@@ -133,9 +134,11 @@ a{
   font-size: 30px;
   color: #eee;
   background: none;
+
   
   padding: 20px;
 }
+
 /* link style */
 
 .header a span {
@@ -404,3 +407,4 @@ figure:hover+span {
 .footer-dark{
   margin-top: -20px;
 }
+

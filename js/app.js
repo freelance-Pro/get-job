@@ -20,17 +20,7 @@ function AddMe(userName, Email, password, gender, major, txtSkills, userimg) {
 
 let submitform = document.getElementById('submit');
 let selectEl = document.getElementById('S_Major');
-<<<<<<< HEAD
-for (let i = 0; i < MajorArray.length; i++) {
-  let optionEl = document.createElement('option');
-  selectEl.appendChild(optionEl);
-  optionEl.textContent = MajorArray[i];
-}
 
-
-
-submitform.addEventListener('click', FunctionClick);
-=======
 if(selectEl!==null){
   for (let i = 0; i < MajorArray.length; i++) {
     let optionEl = document.createElement('option');
@@ -41,7 +31,7 @@ if(selectEl!==null){
 if(submitform!==null){
   submitform.addEventListener('click', FunctionClick);
 }
->>>>>>> allTeam1JS
+
 
 
 function FunctionClick(event) {
@@ -73,29 +63,4 @@ function setting() {
   let data = JSON.stringify(AddmeObj);
   localStorage.setItem('Add_Me', data);
 }
-<<<<<<< HEAD
-  
-// let img = document.getElementById('img_tag');
-// function Members() {
-  
-//   // for (let index = 0; index < AddmeObj.length; index++) {
-//    img.setAttribute('src', samah.jpg);
-//   //  lImgEl.setAttribute('src', busmall[leftImgIndex].source);
-//     // document.getElementById("img_tag").src = "samah.jpg";
-//     console.log('work');
-//   // }
 
-// }
-function getting() {
-  let stringEl = localStorage.getItem('Add_Me');
-  let stringGet = JSON.parse(stringEl);
-  // if (stringGet !== null) {
-
-  //   img.setAttribute('src', 'samah.jpg');
-  // }
-}
-
-=======
-
-
->>>>>>> allTeam1JS
