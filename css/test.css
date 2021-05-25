@@ -1,60 +1,84 @@
+
 body{
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background: #333;
-    display: flex;
+ 
+    background-image: url(https://st4.depositphotos.com/2036275/40409/i/1600/depositphotos_404091998-stock-photo-abstract-red-brick-wall-texture.jpg);
+
+
     justify-content: center;
     align-items: center;
     font-family: consolas;
+    
+    
+    
+}
+.background{
+    background-image: url("https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/03/17074611/legal-freelance.png") ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 1000px;
+    display: flex;
+    opacity: .6;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .container{
     width: 1000px;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
+    margin-left: 100px;
+    
+    
 }
 
 .container .card{
     position: relative;
     cursor: pointer;
-   
+    margin: 12px;
+    /* opacity: .5; */
+    
 }
 
 .container .card .face{
     width: 300px;
     height: 200px;
     transition: 0.5s;
+    
+    
 }
 
 .container .card .face.face1{
     position: relative;
-    background: #333;
+    background: rgb(196, 176, 176);
     display: flex;
+    text-shadow: 3 3 black;
     justify-content: center;
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
+    height: 400px;
 }
 
 .container .card:hover .face.face1{
-    background: #ff0057;
+    background: #aa0f0f;
     transform: translateY(0);
+    opacity: 0.4;
+    
 }
 
 .container .card .face.face1 .content{
-    opacity: 0.2;
-    transition: 0.5s;
+  
+    transition: 0.5s; 
+  background: none;
 }
 
-.container .card:hover .face.face1 .content{
-    opacity: 1;
-}
 
 .container .card .face.face1 .content img{
-    width: 150px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    
 }
 
 .container .card .face.face1 .content h3{
@@ -67,8 +91,8 @@ body{
 
 .container .card .face.face2{
     position: relative;
-    background: #fff;
-    display: flex;
+    /* background: #fff; */
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -79,24 +103,19 @@ body{
 
 .container .card:hover .face.face2{
     transform: translateY(0);
+    
+    
 }
 
 .container .card .face.face2 .content p{
     margin: 0;
     padding: 0;
+   
 }
 
-.container .card .face.face2 .content a{
-    margin: 15px 0 0;
-    display:  inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-}
-
-.container .card .face.face2 .content a:hover{
-    background: #333;
-    color: #fff;
+.second_div{
+    display: block;
+    position: absolute;
+    left: 200px;
+    top:600px;
 }

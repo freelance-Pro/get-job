@@ -239,11 +239,13 @@ a{
 	padding-top: 50px;
 	font-weight: 300;
   font-size: 20px;
+  line-height: 30px;
   
 }
 
 .column {
 	margin: 15px;
+  
 
 }
 
@@ -290,14 +292,15 @@ figure {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+  border-radius: 10%;
 
 }
 figure img{
   width: 300px;
-	height: 300px;
+	height: 400px;
 }
 figure:hover+span {
-	bottom: -36px;
+	bottom: -26px;
 	opacity: 1;
 }
 
@@ -393,16 +396,18 @@ figure:hover+span {
 
 .footer-dark .copyright {
   text-align:center;
-  padding-top:24px;
+  /* padding-top:24px; */
   opacity:0.3;
   font-size:13px;
   margin-bottom:0;
+  
 }
-.container{
-  margin-left: 400px;
+.container1{
+  margin-left: 450px;
   margin-top: 10px;
   text-align: center;
   width: 500px;
+  line-height: 25px;
 }
 .footer-dark{
   margin-top: -20px;
