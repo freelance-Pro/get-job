@@ -1,14 +1,13 @@
 'use strict'
 getting();
-
 function getting() {
-
+   let get_tag_ul = document.getElementById('section_ul');
    if ( localStorage.Addme !== undefined )
    {
       const get_member = JSON.parse(localStorage.Addme);
       
-      let get_tag_ul = document.getElementById('section_ul');
       
+      get_tag_ul = document.getElementById('section_ul');
       for (let index = 0; index < get_member.length; index++) {
          
          let user_img = document.createElement('span');
@@ -45,11 +44,17 @@ function getting() {
    }
    else
       {
-         let messagebox = document.getElementById('messagebox');
-         let user = document.createElement('h1');
-         messagebox.appendChild(user);
-
-         user.textContent = "SORRY "  ;
+         let divIt = document.createElement('div');
+         get_tag_ul.appendChild(divIt);
+         divIt.setAttribute('class','divItem');
+         let user = document.createElement('img');
+         divIt.appendChild(user);
+         user.setAttribute('src','https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png');
+         user.setAttribute('title','img');
+         user.style.width = '600px';
+         user.style.height='600px';
+         user.style.marginLeft = '400px';
+      
 
       }
  }
