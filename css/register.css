@@ -233,7 +233,9 @@ html {
     padding: 30px;
   }
  /* header */
- 
+ a{
+   text-decoration: none;
+ }
 .logo{
   border:2px solid #fff;
   border-radius:3px;
