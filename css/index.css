@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
 html,body{
   margin:0;
@@ -146,7 +145,7 @@ a{
   display: block;
 }
 
-.header a span:nth-child(1) {
+.header a span:nth-child(2) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -164,7 +163,7 @@ a{
   }
 }
 
-.header a span:nth-child(2) {
+.header a span:nth-child(3) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -183,7 +182,7 @@ a{
   }
 }
 
-.header a span:nth-child(3) {
+.header a span:nth-child(4) {
   bottom: 0;
   right: -20%;
   width: 50%;
@@ -202,7 +201,7 @@ a{
   }
 }
 
-.header a span:nth-child(4) {
+.header a span:nth-child(5) {
   bottom: -100%;
   left: 0;
   width: 2px;
@@ -300,7 +299,7 @@ figure img{
 	height: 400px;
 }
 figure:hover+span {
-	bottom: -26px;
+	bottom: -20px;
 	opacity: 1;
 }
 
@@ -328,19 +327,19 @@ figure:hover+span {
 		opacity: 1;
 	}
 }
-
 /* footer */
 .footer-dark {
-  padding:50px 0;
+  padding:20px 0;
   color:#f0f9ff;
-  background-color:#212830;
+  background-color:#282d32;
 }
 
 .footer-dark h3 {
   margin-top:0;
-  margin-bottom:12px;
+  margin-bottom:1px;
   font-weight:bold;
   font-size:16px;
+  
 }
 
 @media (max-width:767px) {
@@ -351,7 +350,7 @@ figure:hover+span {
 }
 
 .footer-dark .item.text {
-  margin-bottom:36px;
+  margin-bottom:25px;
 }
 
 @media (max-width:767px) {
@@ -393,18 +392,16 @@ figure:hover+span {
 .footer-dark .item.social > a:hover {
   opacity:0.9;
 }
-
 .footer-dark .copyright {
   text-align:center;
-  /* padding-top:24px; */
+  padding-top:15px;
   opacity:0.3;
   font-size:13px;
   margin-bottom:0;
-  
 }
 .container1{
   margin-left: 450px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   text-align: center;
   width: 500px;
   line-height: 25px;
@@ -412,4 +409,3 @@ figure:hover+span {
 .footer-dark{
   margin-top: -20px;
 }
-
