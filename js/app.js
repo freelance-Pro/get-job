@@ -5,7 +5,8 @@ if (item1) {
   AddmeObj = JSON.parse(item1);
 }
 
-let MajorArray = ['Others', 'Engineering', 'Information Technology', 'Arts', 'Siences', 'Medical', 'Economy', 'Geographic'];
+let MajorArray = ['Select','Engineering', 'Information Technology', 'Arts', 'Siences', 'Medical', 'Economy', 'Geographic','Others'];
+
 function AddMe(userName, Email, password, gender, major, txtSkills, userimg) {
   this.userName = userName;
   this.Email = Email;
@@ -49,14 +50,16 @@ function FunctionClick(event) {
   } else if (document.getElementById('radiogender2').checked) {
     userg = document.getElementById('radiogender2').value;
   }
-  let x = document.getElementById("S_Major").selectedIndex;
-  let userm = document.getElementsByTagName("option")[x].value;
+  let majorsel = document.getElementById("S_Major").selectedIndex;
+  let userm = document.getElementsByTagName("option")[majorsel].value;
   let usert = document.forms["form"]["txt_area"].value;
   let useri = document.forms["form"]["url_txt"].value;
 
-  new AddMe(usern, usere, userp, userg, userm, usert, useri);
-  window.location.href = 'members.html';
-
+  if(localStorage.addme !== null){
+    new AddMe(usern, usere, userp, userg, userm, usert, useri); 
+    window.location.href = 'members.html';
+   }
+  
 
 }
 
