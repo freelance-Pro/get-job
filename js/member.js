@@ -1,6 +1,7 @@
-'use strict'
+'use strict';
 getting();
 function getting() {
+
    let get_tag_ul = document.getElementById('section_ul');
    if ( localStorage.Addme !== undefined )
    {
@@ -59,3 +60,4 @@ function getting() {
       }
  }
  
+
