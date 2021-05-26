@@ -57,6 +57,7 @@ function FunctionClick(event) {
 
   if(localStorage.addme !== null){
     new AddMe(usern, usere, userp, userg, userm, usert, useri); 
+  
     window.location.href = 'members.html';
    }
   
